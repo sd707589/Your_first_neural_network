@@ -330,9 +330,9 @@ unittest.TextTestRunner().run(suite)
 import sys
 
 ### Set the hyperparameters here ###
-iterations = 3000
-learning_rate = 0.06
-hidden_nodes = 30
+iterations = 4000
+learning_rate = 0.8
+hidden_nodes = 20
 output_nodes = 1
 
 N_i = train_features.shape[1]
